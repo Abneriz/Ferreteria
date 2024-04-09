@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Promar</title>
+    <link rel="stylesheet" href="comprar.css"> <!-- Ajustado el link al archivo CSS -->
+    <script src="script.js"></script>
+</head>
+<body>
+    <!--Menu Encabezado-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <img src="img/logo.jpg.jpg" class="logo-img" />
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="historia.html" onclick="seleccionar()">NUESTRA HISTORIA</a></li>
+                    <li><a href="catalogo.html" onclick="seleccionar()">CATALOGO</a></li>
+                    <li><a href="comprar.html" onclick="seleccionar()">¿DÓNDE COMPRAR?</a></li>
+                    <li><a href="contactanos.html" onclick="seleccionar()">CONTACTANOS</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>¿DÓNDE COMPRAR?</h2>
+            <div class="fila">
+                <!-- MAPA -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                </div>
+                <div class="info"> <!-- Movido fuera de la columna -->
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Barrio San Francisco, San Marcos de Colon, Choluteca, Honduras
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            Número de teléfono: 2788-3106
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-clock"></i>
+                            Horario de atención: Lunes a Sábado de 7:00 am a 6:00 pm
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-user"></i>
+                            Le atenderá su propietario: Ronmel Espinal y su equipo de trabajo 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
