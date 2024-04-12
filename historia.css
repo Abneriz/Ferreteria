@@ -51,6 +51,7 @@ body {
     padding: 3px;
     transition: .5s;
     text-decoration: none;
+    font-family: 'Righteous';
 }
 .contenedor-header header nav ul li a:hover{
     color: 	#FF7000;
