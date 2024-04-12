@@ -12,6 +12,11 @@ header {
     position: relative; /* Asegurar que el encabezado tenga un contexto de posicionamiento */
     z-index: 1; /* Elevar el encabezado por encima del fondo */
 }
+.contenido-seccion h1 {
+    font-size: 50px; /* Tamaño de fuente del título */
+    color: #FF7000; /* Color del texto del título */
+    font-family: 'Righteous';
+}
 
 /* MENU */
 .contenedor-header{
@@ -150,11 +155,6 @@ section {
 }
 
 /* Estilos para el título */
-.contenido-seccion h1 {
-    font-size: 50px; /* Tamaño de fuente del título */
-    color: #FF7000; /* Color del texto del título */
-    font-family: 'Righteous';
-}
 
 /* Estilos para el párrafo */
 .contenido-seccion p {
