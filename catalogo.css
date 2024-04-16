@@ -242,6 +242,7 @@ h2{
  .titulo h1{
     margin-left:  150px;
 }
+
 @media screen and (max-width:980px){
     .conteiner-items {
         flex-direction: column;
